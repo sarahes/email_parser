@@ -1,0 +1,203 @@
+                                                                                                                                                                                                                                                               
+Delivered-To: ssheehan131@gmail.com
+Received: by 10.152.21.168 with SMTP id w8cs124242lae;
+        Fri, 16 Sep 2011 12:44:29 -0700 (PDT)
+Received: by 10.213.7.143 with SMTP id d15mr986686ebd.137.1316202268598;
+        Fri, 16 Sep 2011 12:44:28 -0700 (PDT)
+Return-Path: <nina@cloudspace.com>
+Received: from mail-ew0-f54.google.com (mail-ew0-f54.google.com [209.85.215.54])
+        by mx.google.com with ESMTPS id a50si2715402eeg.126.2011.09.16.12.44.28
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Fri, 16 Sep 2011 12:44:28 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning nina@cloudspace.com does not designate 209.85.215.54 as permitted sender) client-ip=209.85.215.54;
+Authentication-Results: mx.google.com; spf=softfail (google.com: domain of transitioning nina@cloudspace.com does not designate 209.85.215.54 as permitted sender) smtp.mail=nina@cloudspace.com
+Received: by mail-ew0-f54.google.com with SMTP id 1so3133696ewy.27
+        for <ssheehan131@gmail.com>; Fri, 16 Sep 2011 12:44:28 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.52.23.37 with SMTP id j5mr673929vdf.255.1316202267528; Fri, 16
+ Sep 2011 12:44:27 -0700 (PDT)
+Received: by 10.220.187.197 with HTTP; Fri, 16 Sep 2011 12:44:27 -0700 (PDT)
+In-Reply-To: <CAL-NqX9-t6F3_RrqjmMXKjyaxCef3U3kvPg-RZ7e343Wbxx7SA@mail.gmail.com>
+References: <CAL-NqX9-t6F3_RrqjmMXKjyaxCef3U3kvPg-RZ7e343Wbxx7SA@mail.gmail.com>
+Date: Fri, 16 Sep 2011 15:44:27 -0400
+Message-ID: <CAL-NqX91-CZEtsRKYrUOcjs_dJgRGdBMkfccMHu2mpRwGJcqsw@mail.gmail.com>
+Subject: Fwd: PHP Practical
+From: Nina Talley <nina@cloudspace.com>
+To: ssheehan131@gmail.com
+Content-Type: multipart/alternative; boundary=20cf30780a7e9bcc9004ad1438f6
+
+--20cf30780a7e9bcc9004ad1438f6
+Content-Type: text/plain; charset=ISO-8859-1
+
+---------- Forwarded message ----------
+From: Nina Talley <nina@cloudspace.com>
+Date: Thu, Sep 15, 2011 at 5:15 PM
+Subject: PHP Practical
+To: ssheehan13@gmail.com
+
+
+*PHP Coding Practical: Parsing an Email*
+
+What do I mean by parse and email?  Go to Gmail, open an incoming email, and
+do "View Original" from the drop down menu in the upper right corner of the
+email.
+
+You should see a text file of a raw email.  The goal is to parse that and
+extract relevant fields.
+
+This is actually a very difficult thing and proper implementation could take
+months.  However, it's possible to do the basics, without handling all of
+the intricacies, in as little as 2 but no more than 8 hours of coding time
+(research not included in this time estimate).
+
+Your Goals:
+
+   1. Take in an email and parse it into relevant fields.  Figure out what
+   those relevant fields are.
+   2. Create a good foundation.  Try to write extensible/maintainable code.
+   3. When you're done, list out next steps you'd take in your
+   implementation.  Eg, I'd focus on handling different MIME types in the body,
+   etc.
+   4. Don't use a library that does the parsing for you (we know we're
+   making you reinvent the wheel here), but feel free to use any
+   non-email-specific libraries you want.
+   5. Send us the code along with a brief explanation of how it works.
+   Don't forget the requirements from #3!
+
+A few notes about your goals:
+
+   - The directions are purposefully vague. Make decisions on what you think
+   is best for the goal you're trying to accomplish.  Feel free to tell us why
+   you made certain decisions in your summary.
+   - Use the RFC Email Specs as a starting point to help you parse the
+   email.
+   - Google is your friend!
+
+
+-- 
+[image: Cloudspace.com] <http://www.cloudspace.com/> Nina Talley Account
+ManagerOffice: 877.823.8808
+
+3403 Technological Ave, Suite 2
+
+Orlando, FL 32817
+
+
+
+
+-- 
+[image: Cloudspace.com] <http://www.cloudspace.com/>Nina TalleyAccount
+ManagerOffice: 877.823.8808
+
+3403 Technological Ave, Suite 2
+
+Orlando, FL 32817
+
+--20cf30780a7e9bcc9004ad1438f6
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<br><br><div class=3D"gmail_quote">---------- Forwarded message ----------<=
+br>From: <b class=3D"gmail_sendername">Nina Talley</b> <span dir=3D"ltr">&l=
+t;<a href=3D"mailto:nina@cloudspace.com">nina@cloudspace.com</a>&gt;</span>=
+<br>Date: Thu, Sep 15, 2011 at 5:15 PM<br>
+Subject: PHP Practical<br>To: <a href=3D"mailto:ssheehan13@gmail.com">sshee=
+han13@gmail.com</a><br><br><br><span style=3D"font-family:arial, sans-serif=
+;font-size:13px;background-color:rgb(255, 255, 255)"><b><span style=3D"back=
+ground-color:rgb(255, 255, 204);color:rgb(34, 34, 34)"><span style=3D"backg=
+round-color:rgb(255, 255, 204);color:rgb(34, 34, 34);background-repeat:init=
+ial initial">PHP</span></span>=A0Coding=A0<span style=3D"background-color:r=
+gb(255, 255, 204);color:rgb(34, 34, 34)"><span style=3D"background-color:rg=
+b(255, 255, 204);color:rgb(34, 34, 34);background-repeat:initial initial">P=
+ractical</span></span>: Parsing an Email</b><br>
+
+<br>What do I mean by parse and email?=A0 Go to Gmail, open an incoming ema=
+il, and do &quot;View Original&quot; from the drop down menu in the upper r=
+ight corner of the email.<br><br>You should see a text file of a raw email.=
+=A0 The goal is to parse that and extract relevant fields.<br>
+
+<br>This is actually a very difficult thing and proper implementation could=
+ take months.=A0 However, it&#39;s possible to do the basics, without handl=
+ing all of the intricacies, in as little as 2 but no more than 8 hours of c=
+oding time (research not included in this time estimate).<br>
+
+<br>Your Goals:<br><ol><li style=3D"margin-left:15px">Take in an email and =
+parse it into relevant fields.=A0 Figure out what those relevant fields are=
+.</li><li style=3D"margin-left:15px">Create a good foundation.=A0 Try to wr=
+ite extensible/maintainable code.</li>
+
+<li style=3D"margin-left:15px">When you&#39;re done, list out next steps yo=
+u&#39;d take in your implementation.=A0 Eg, I&#39;d focus on handling diffe=
+rent MIME types in the body, etc.</li><li style=3D"margin-left:15px">Don&#3=
+9;t use a library that does the parsing for you (we know we&#39;re making y=
+ou reinvent the wheel here), but feel free to use any non-email-specific li=
+braries you want.</li>
+
+<li style=3D"margin-left:15px">Send us the code along with a brief explanat=
+ion of how it works.=A0 Don&#39;t forget the requirements from #3!</li></ol=
+>A few notes about your goals:<br><ul><li style=3D"margin-left:15px">The di=
+rections are purposefully vague. Make decisions on what you think is best f=
+or the goal you&#39;re trying to accomplish.=A0 Feel free to tell us why yo=
+u made certain decisions in your summary.</li>
+
+<li style=3D"margin-left:15px">Use the RFC Email Specs as a starting point =
+to help you parse the email.</li><li style=3D"margin-left:15px">Google is y=
+our friend!</li></ul></span><div><br></div>-- <br><span style=3D"font-famil=
+y:arial, sans-serif;font-size:13px;border-collapse:collapse"><table style=
+=3D"font-family:georgia, sans-serif;color:rgb(0, 118, 163);font-size:16px">
+
+<tbody><tr><td width=3D"351" style=3D"margin-top:0px;margin-right:0px;margi=
+n-bottom:0px;margin-left:0px;font-family:arial, sans-serif;float:left"><a h=
+ref=3D"http://www.cloudspace.com/" style=3D"color:rgb(237, 28, 36)" target=
+=3D"_blank"><img alt=3D"Cloudspace.com" height=3D"49" width=3D"296" style=
+=3D"border-top-width:0px;border-right-width:0px;border-bottom-width:0px;bor=
+der-left-width:0px"></a></td>
+
+</tr><tr><td width=3D"351" style=3D"margin-top:0px;margin-right:0px;margin-=
+bottom:0px;margin-left:0px;font-family:arial, sans-serif;float:left">Nina T=
+alley</td></tr><tr><td width=3D"351" style=3D"margin-top:0px;margin-right:0=
+px;margin-bottom:0px;margin-left:0px;font-family:arial, sans-serif;float:le=
+ft">
+
+Account Manager</td></tr><tr><td style=3D"margin-top:0px;margin-right:0px;m=
+argin-bottom:0px;margin-left:0px;font-family:arial, sans-serif;float:left">=
+Office: <a href=3D"tel:877.823.8808" value=3D"+18778238808" target=3D"_blan=
+k">877.823.8808</a></td>
+</tr><tr><td style=3D"margin-top:0px;margin-right:0px;margin-bottom:0px;mar=
+gin-left:0px;font-family:arial, sans-serif;float:left">
+<p style=3D"padding-top:0px;padding-right:0px;padding-bottom:0px;padding-le=
+ft:0px;margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px">3=
+403 Technological Ave, Suite 2</p><p style=3D"padding-top:0px;padding-right=
+:0px;padding-bottom:0px;padding-left:0px;margin-top:0px;margin-right:0px;ma=
+rgin-bottom:0px;margin-left:0px">
+
+Orlando, FL 32817</p></td></tr></tbody></table></span><br>
+</div><br><br clear=3D"all"><div><br></div>-- <br><span style=3D"font-famil=
+y:arial, sans-serif;font-size:13px;border-collapse:collapse"><table style=
+=3D"font-family:georgia, sans-serif;color:rgb(0, 118, 163);font-size:16px">=
+<tbody><tr>
+<td width=3D"351" style=3D"margin-top:0px;margin-right:0px;margin-bottom:0p=
+x;margin-left:0px;font-family:arial, sans-serif;float:left"><a href=3D"http=
+://www.cloudspace.com/" style=3D"color:rgb(237, 28, 36)" target=3D"_blank">=
+<img alt=3D"Cloudspace.com" src=3D"http://www.cloudspace.com/logo/cloudspac=
+e-originalcolor.png" height=3D"49" width=3D"296" style=3D"border-top-width:=
+0px;border-right-width:0px;border-bottom-width:0px;border-left-width:0px"><=
+/a></td>
+</tr><tr><td width=3D"351" style=3D"margin-top:0px;margin-right:0px;margin-=
+bottom:0px;margin-left:0px;font-family:arial, sans-serif;float:left">Nina T=
+alley</td></tr><tr><td width=3D"351" style=3D"margin-top:0px;margin-right:0=
+px;margin-bottom:0px;margin-left:0px;font-family:arial, sans-serif;float:le=
+ft">
+Account Manager</td></tr><tr><td style=3D"margin-top:0px;margin-right:0px;m=
+argin-bottom:0px;margin-left:0px;font-family:arial, sans-serif;float:left">=
+Office: 877.823.8808</td></tr><tr><td style=3D"margin-top:0px;margin-right:=
+0px;margin-bottom:0px;margin-left:0px;font-family:arial, sans-serif;float:l=
+eft">
+<p style=3D"padding-top:0px;padding-right:0px;padding-bottom:0px;padding-le=
+ft:0px;margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px">3=
+403 Technological Ave, Suite 2</p><p style=3D"padding-top:0px;padding-right=
+:0px;padding-bottom:0px;padding-left:0px;margin-top:0px;margin-right:0px;ma=
+rgin-bottom:0px;margin-left:0px">
+Orlando, FL 32817</p></td></tr></tbody></table></span><br>
+
+--20cf30780a7e9bcc9004ad1438f6--
