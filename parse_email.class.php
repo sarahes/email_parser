@@ -91,9 +91,7 @@ class emailParser{
 		foreach ($bodyLine as $line) {
 			//start looping through the body content - first look for the content-type; one we get that, move on
             if (!$foundTypeFlag) {
-                if (strstr($line, 'Content-Type: text/plain')) {
-					//store Content-Type, in case we need that later
-					$contentType = "";
+                if (strstr($line, 'Content-Type: text/plain')) {					
                     $foundTypeFlag = true;                    
                 }
             } 
@@ -133,7 +131,6 @@ class emailParser{
 		foreach ($bodyLine as $line) {			
             if (!$foundTypeFlag) {
                 if (strstr($line, 'Content-Type: text/html')) {					
-					$contentType = "";
                     $foundTypeFlag = true;                    
                 }
             } 
