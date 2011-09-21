@@ -150,7 +150,7 @@ class emailParser{
 					break;
 				}		
 				
-                $htmlBody .= $line . "\n";
+                @$htmlBody .= $line . "\n";
             }
             
         }		

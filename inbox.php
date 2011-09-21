@@ -1,28 +1,34 @@
+<!doctype html>
+<head>
+  <meta charset="utf-8">
+  <title>Inbox</title>
+  <link rel="stylesheet" href="css/style.css">
+  
+</head>
+
+<body>
+
 <?php require_once('inbox.class.php'); ?>
 
-<h1>Inbox</h1>
+<h1 class="c">Inbox</h1>
 
-<?php
+<?php	
+	$getInbox = new inbox(getcwd().'\rawemails');	
 	
-	$getEmail = new inbox(getcwd().'\rawemails');	
-
-	if(!empty($getEmail->fileNames)){	
-		echo '<ul class="nobullet">';
-		foreach($getEmail->fileNames as $fileName){		
-			echo '<li><a href="'.$fileName.'" />'.$fileName.'</a></li>';
+	echo '<div id="inbox">';
+	if(!empty($getInbox->fileNames)){	
+		echo '<ol class="nobullet">';
+		for($i = 0; $i < sizeof($getInbox->fileNames); $i++)
+		{				
+			echo '<li><a id="email'.$i.'" href="email.php?filename='.urlencode($getInbox->fileNames[$i]).'" />'.$getInbox->fileNames[$i].'</a></li>';			
 		}
-		echo '</ul>';
+		echo '</ol>';
 	}
 	else{
-		echo '<p>You do not have any e-mails.</p>';
-	}		
-	
-	echo '<h2>'.htmlspecialchars($getEmail->subject).'</h2>';
-		echo '<dl><dt><strong>From:</strong></dt><dd>'.htmlspecialchars($getEmail->from).'</dd>';
-		echo '<dt><strong>To:</strong></dt><dd>'.htmlspecialchars($getEmail->to).'</dd>';
-		echo '<dt><strong>Date:</strong></dt><dd>'.htmlspecialchars($getEmail->date).'</dd></dl>';
-		
-		echo $getEmail->message;
-	
-	
+		echo '<p>You do not have any e-mails. :(</p>';
+	}	
+	echo '</div>';
 ?>
+
+</body>
+</html>
