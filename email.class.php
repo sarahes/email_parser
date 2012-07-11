@@ -15,30 +15,30 @@ require_once('parse_email.class.php');
 
 class email extends emailParser{
 
-		private $file;
-		
-		public function __construct($fileName)
-		{
-			
-			$this->file = $fileName;			
-			$fileExists = file_exists($fileName);
-		
-			if(!$fileExists){
-				die ('Sorry, that file does not exist.');		
-			}
-			$fp = fopen($fileName, "r");
-			$email = fgets($fp);
-			
-			$parseEmail = new emailParser($fp);
-			
-			
-			$this->subject = $parseEmail->subject;
-			$this->from = $parseEmail->from;
-			$this->to = $parseEmail->to;
-			$this->date = $parseEmail->date;
-			
-			$this->message = $parseEmail->extractHTMLBody();
-		}
+        private $file;
+        
+        public function __construct($fileName)
+        {
+            
+            $this->file = $fileName;			
+            $fileExists = file_exists($fileName);
+        
+            if(!$fileExists){
+                die ('Sorry, that file does not exist.');		
+            }
+            $fp = fopen($fileName, "r");
+            $email = fgets($fp);
+            
+            $parseEmail = new emailParser($fp);
+            
+            
+            $this->subject = $parseEmail->subject;
+            $this->from = $parseEmail->from;
+            $this->to = $parseEmail->to;
+            $this->date = $parseEmail->date;
+            
+            $this->message = $parseEmail->extractHTMLBody();
+        }
 }
-		
+        
 ?>

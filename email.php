@@ -14,15 +14,14 @@
 <div id="email">
 
 <?php
-$getMessage = new email(urldecode($_GET['filename']));
+    $getMessage = new email(urldecode($_GET['filename']));
 
-echo '<h1>'.htmlspecialchars($getMessage->subject).'</h1>';
-		echo '<p><strong>From:</strong>'.htmlspecialchars($getMessage->from).'</p>';
-		echo '<p><strong>To:</strong>'.htmlspecialchars($getMessage->to).'</p>';
-		echo '<p><strong>Date:</strong>'.htmlspecialchars($getMessage->date).'</p>';
-		
-		echo '<div class="message">'.$getMessage->message.'</div>';
-		
+    echo '<h1>'.htmlspecialchars($getMessage->subject).'</h1>';
+    echo '<p><strong>From:</strong>'.htmlspecialchars($getMessage->from).'</p>';
+    echo '<p><strong>To:</strong>'.htmlspecialchars($getMessage->to).'</p>';
+    echo '<p><strong>Date:</strong>'.htmlspecialchars($getMessage->date).'</p>';		
+    echo '<div class="message">'.$getMessage->message.'</div>';
+        
 ?>
 </div>
 </body>
